@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Test</title>
+    <meta name="description" content="">
+
+    <link rel="icon" type="image/png" href="favicon/favicon.png" />
+<link rel="icon" href="favicon/favicon.svg" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:description"  content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    <meta name="format-detection" content="telephone=no">
+</head>
+<body>
+
+
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo" href="/">
+                <img src="images/header/logo.png" alt="alt" />
+            </a>
+            <div class="header__contacts">
+                <div class="header__contact">
+                    <div class="header__phone">
+                        <a class="header__phone-link" href="tel:84957958285">
+                            8 (495) 795-82-85
+                        </a>
+                        <span class="header__partner">
+                            Официальный партнер Seldon
+                        </span>
+                    </div>
+                    <div class="header__socials">
+                        <a class="header__social header__social--whatsapp" href="#">
+
+                        </a>
+                        <a class="header__social header__social--telegram" href="#">
+
+                        </a>
+                        <a class="header__social header__social--skype" href="#">
+
+                        </a>
+                        <a class="header__social header__social--viber" href="#">
+
+                        </a>
+                    </div>
+                    <button class="header__btn js__popup-link"  data-modal="#popup">
+                        Получить доступ
+                    </button>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-link header__list-link--arrow">Программы</a>
+                            <ul class="header__submenu">
+                                <li class="header__submenu-item"><a class="header__submenu-link" href="#">Seldon 1.7</a>
+                                </li>
+                                <li class="header__submenu-item"><a class="header__submenu-link"
+                                        href="#">Seldon.Basis</a></li>
+                                <li class="header__submenu-item"><a class="header__submenu-link" href="#">Seldon.Pro</a>
+                                </li>
+                                <li class="header__submenu-item"><a class="header__submenu-link" href="#">Seldon.Doc</a>
+                                </li>
+                                <li class="header__submenu-item"><a class="header__submenu-link"
+                                        href="#">Seldon.Price</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Цены</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">О компании</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Гарантии</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Новости</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">FAQ</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header__inner-mobail">
+            <div class="header__content-mobail">
+                <div class='header__burger js__header-burgerclick'>
+                    <div class='header__burger-item js__header-burger header__burger--top'></div>
+                    <div class='header__burger-item js__header-burger header__burger--middle'></div>
+                    <div class='header__burger-item js__header-burger header__burger--bottom'></div>
+                </div>
+                <a class="header__logo" href="/">
+                    <picture>
+                        <source srcset="images/header/logo__mobail.png" type="image/png" media="(max-width:500px)">
+                        <img src="images/header/logo.png" alt="alt" />
+                    </picture>
+                </a>
+            </div>
+            <nav class="header__nav header__nav-js">
+                <div class="container">
+                    <div class="header__scroll">
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a href="#"
+                                    class="header__list-link header__list-link--arrow header__list-click">Программы</a>
+                                <ul class="header__submenu header__submenu-openjs">
+                                    <li class="header__submenu-item"><a class="header__submenu-link" href="#">Seldon
+                                            1.7</a>
+                                    </li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link"
+                                            href="#">Seldon.Basis</a>
+                                    </li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link"
+                                            href="#">Seldon.Pro</a>
+                                    </li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link"
+                                            href="#">Seldon.Doc</a>
+                                    </li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link"
+                                            href="#">Seldon.Price</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Цены</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">О компании</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Гарантии</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Новости</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">FAQ</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Контакты</a></li>
+                        </ul>
+                        <div class="header__phone">
+                            <a class="header__phone-link" href="tel:84957958285">
+                                8 (495) 795-82-85
+                            </a>
+                            <span class="header__partner">
+                                Официальный партнер Seldon
+                            </span>
+                        </div>
+                        <div class="header__socials">
+                            <a class="header__social header__social--whatsapp" href="#">
+
+                            </a>
+                            <a class="header__social header__social--telegram" href="#">
+
+                            </a>
+                            <a class="header__social header__social--skype" href="#">
+
+                            </a>
+                            <a class="header__social header__social--viber" href="#">
+
+                            </a>
+                        </div>
+                        <button class="header__btn js__popup-link"  data-modal="#popup">
+                            Получить доступ
+                        </button>
+                        <div class='header__burger header__burger-close js__header-burgerclick'>
+                            <div class='header__burger-item js__header-burger header__burger--top open'></div>
+                            <div class='header__burger-item js__header-burger header__burger--middle open'></div>
+                            <div class='header__burger-item js__header-burger header__burger--bottom open'></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header> 
+        <main class="main">
+            <section class="video-dock">
+    <div class="video">
+        <div class="container">
+            <div class="video__inner">
+                <div class="video__text">
+                    <h1 class="video__title video-dock__title">Seldon.Doc</h1>
+                    <strong class="video__sistems video-dock__sistems">Автоматизация тендерного отдела</strong>
+                    <p class="video__text-paragraf video-dock__text-paragraf">
+                        Это сервис по управлению тендерными процессами. Эффективен для компаний, которые часто участвуют в госзакупках
+                    </p>
+                    <div class="video__text-buttons video-dock__text-buttons">
+                        <a class="video__text-link video-dock__text-link" href="#">Бесплатный доступ на 3 дня</a>
+                        <button class="video__text-btn video-dock__text-btn js__popup-link video__js" type="submit" data-modal="#popup2">Смотреть видео</button>
+                    </div>
+                </div>
+                <div class="video__button">
+                    <img class="video__decor" src="images/video-dock/img.jpg" alt="alt" />
+                    <img class="video__play js__popup-link video__js" data-modal="#popup2" src="images/video/video__button.png" alt="alt" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tasks">
+    <div class="container">
+        <h2 class="tasks__title">
+            КАКИЕ ЗАДАЧИ РЕШАЕТ СИСТЕМА
+        </h2>
+        <div class="tasks__inner lazy-load-box tasks__inner-margin" data-delay="0" data-speed="400">
+            <img class="tasks__img" src="images/tasks/item.jpg" alt="alt">
+            <div class="tasks__content">
+                <strong class="tasks__content-title">Оптимизация поиска тендерных закупок</strong>
+                <p class="tasks__content-text">Сервис собирает и хранит информацию по интересующим вас тендерам. Есть
+                    интеллектуальный лингвистический поиск.</p>
+            </div>
+        </div>
+        <div class="tasks__inner lazy-load-box" data-delay="200" data-speed="400">
+            <div class="tasks__content">
+                <strong class="tasks__content-title">Простая маршрутизация
+                    ТЕНДЕРОВ</strong>
+                <p class="tasks__content-text">Сервис позволяет автоматически распределять тендеры между сотрудниками,
+                    обмениваться документами внутри системы и работать с ними совместно.</p>
+            </div>
+            <img class="tasks__img tasks__img-right" src="images/tasks/item2.jpg" alt="alt">
+        </div>
+        <div class="tasks__inner lazy-load-box tasks__inner-margin" data-delay="400" data-speed="400">
+            <img class="tasks__img" src="images/tasks/item3.jpg" alt="alt">
+            <div class="tasks__content">
+                <strong class="tasks__content-title">
+                    Организованная работа
+                </strong>
+                <p class="tasks__content-text">
+                    Правильная методология, удобный интерфейс, доступность всех документов, а так же возможность
+                    коллективной работы и фиксации истории изменений - ключ к успеху в тендерных продажах.
+                </p>
+            </div>
+        </div>
+        <div class="tasks__inner lazy-load-box" data-delay="600" data-speed="400">
+            <div class="tasks__content">
+                <strong class="tasks__content-title">
+                    Аналитика в реальном времени
+                </strong>
+                <p class="tasks__content-text">
+                    Данные аналитики для руководителя — понятный и простой вывод результатов и просчёт эффективности
+                    тендерного направления, благодаря чему вы сможете выделить слабые места и зоны роста.
+                </p>
+            </div>
+            <img class="tasks__img tasks__img-right" src="images/tasks/item4.jpg" alt="alt">
+        </div>
+    </div>
+</section>
+<section class="success success__margin">
+    <div class="container">
+        <h2 class="success__title">
+            выгоды
+        </h2>
+        <div class="success__items">
+            <div class="success__item">
+                <div class="success__grafic">
+                    <svg class="success__svg" width="45" height="46" viewBox="0 0 45 46" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle class="success__js-path" cx="22.5" cy="23.2249" r="20.5" stroke="#31B1E6"
+                            stroke-dasharray="128" stroke-dashoffset="128" stroke-width="4" />
+                    </svg>
+                    <div class="success__grafic-border">
+
+                    </div>
+                    <strong class="success__grafic-text success__js-data">65</strong>
+                    <strong class="success__grafic-text success__grafic-textmargin">%</strong>
+                    <input class="success__input" type="text" value="128">
+                </div>
+                <p class="success__text">Сокращение затрат на администрирование процессов</p>
+            </div>
+            <div class="success__item">
+                <div class="success__grafic">
+                    <svg class="success__svg" width="45" height="46" viewBox="0 0 45 46" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle class="success__js-path" cx="22.5" cy="23.2249" r="20.5" stroke="#31B1E6"
+                            stroke-dasharray="128" stroke-dashoffset="128" stroke-width="4" />
+                    </svg>
+                    <strong class="success__grafic-text success__js-data">74</strong>
+                    <strong class="success__grafic-text success__grafic-textmargin">%</strong>
+                    <input class="success__input" type="text" value="128">
+                </div>
+                <p class="success__text">Увеличивается участие в торгах</p>
+            </div>
+            <div class="success__item">
+                <div class="success__grafic">
+                    <svg class="success__svg" width="45" height="46" viewBox="0 0 45 46" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle class="success__js-path" cx="22.5" cy="23.2249" r="20.5" stroke="#31B1E6"
+                            stroke-dasharray="128" stroke-dashoffset="128" stroke-width="4" />
+                    </svg>
+                    <strong class="success__grafic-text success__js-data">80</strong>
+                    <strong class="success__grafic-text success__grafic-textmargin">%</strong>
+                    <input class="success__input" type="text" value="128">
+                </div>
+                <p class="success__text">Увеличивается своевременность подписания контракта</p>
+            </div>
+            <div class="success__item">
+                <div class="success__grafic">
+                    <svg class="success__svg" width="45" height="46" viewBox="0 0 45 46" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle class="success__js-path" cx="22.5" cy="23.2249" r="20.5" stroke="#31B1E6"
+                            stroke-dasharray="128" stroke-dashoffset="128" stroke-width="4" />
+                    </svg>
+                    <strong class="success__grafic-text success__js-data">90</strong>
+                    <strong class="success__grafic-text success__grafic-textmargin">%</strong>
+                    <input class="success__input" type="text" value="128">
+                </div>
+                <p class="success__text">Увеличивается осведомленность об изменениях в тендере</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="application">
+    <div class="container">
+        <div class="consultition">
+            <h3 class="consultition__title">Хотите добиться таких же результатов?</h3>
+            <p class="consultition__text">Оставьте заявку и мы предоставим вам бесплатный доступ к системе с
+                сопровождением персонального менеджера</p>
+            <div class="consultition__inner">
+                <a class="consultition__link application__link js__popup-link" href="#" data-modal="#popup">Оставить заявку</a>
+                <div class="consultition__phone">
+                    Позвонить нам
+                    <a class="consultition__phone-link" href="tel:84957958285">8 (495) 795-82-85</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="product-dock">
+    <div class="product">
+        <div class="container">
+            <h3 class="product__title">для кого подойдет <span class="product__title-text">наш продукт</span></h3>
+            <div class="product__item">
+                <div class="product__item-box product-dock__item-box">
+                    <img class="product__item-img product-dock__item-img" src="images/product-dock/item.jpg" alt="alt" />
+                </div>
+                <div class="product-dock__item-content">
+                    <strong class="product__item-text">
+                        Руководителям предприятий
+                    </strong>
+                    <p class="product-dock__item-paragraf">Развивайте тендерное направление. Анализируйте рынок и принимайте
+                        ключевые решения, чтобы достичь поставленных целей.</p>
+                </div>
+            </div>
+            <div class="product__item product__item--margin">
+                <div class="product__item-box product-dock__item-box">
+                    <img class="product-dock__item-img"  src="images/product-dock/item2.jpg" alt="alt" />
+                </div>
+                <div class="product-dock__item-content">
+                    <strong class="product__item-text">
+                        Маркетологам
+                    </strong>
+                    <p class="product-dock__item-paragraf">Seldon.Doc позволяет проводить маркетинговые исследования на
+                        основе
+                        собранных данных. В обработке задействованы сведения по закупкам, заключенным контрактам,
+                        опубликованным протоколам и организациям-участникам или победителям торгов.</p>
+                </div>
+            </div>
+            <div class="product__item product__item--margin2">
+                <div class="product__item-box product-dock__item-box">
+                    <img class="product-dock__item-img" src="images/product-dock/item3.jpg" alt="alt" />
+                </div>
+                <div class="product-dock__item-content">
+                    <strong class="product__item-text">
+                        специалистам по закупкам
+                    </strong>
+                    <p class="product-dock__item-paragraf">Автоматизируйте свою деятельность. Организуйте рабочие процессы.
+                        Обменивайтесь документами внутри системы и работайте с ними совместно. Повышайте качество
+                        подготовки
+                        заявок на участие в закупках.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="detailed lazy-load-box" data-delay="0" data-speed="400">
+    <div class="container">
+        <h3 class="detailed__title">
+            ПОДРОБНЫЙ ВИДЕООБЗОР
+        </h3>
+        <div class="detailed__inner">
+            <div class="detailed__video-content">
+                <img class="detailed__img detailed__img-js" src="images/detailed/play.png" alt="play">
+                <video class="detailed__video detailed__video-js" controls src="files/video/Video.mp4"></video>
+            </div>
+            <div class="detailed__timecode">
+                <div class="detailed__timecode-inner detailed__js-timecode" data-time="0">
+                    <span class="detailed__timecode-time">
+                        00:00
+                    </span>
+                    <p class="detailed__timecode-text">Для чего и кому нужен Seldon.Doc?</p>
+                </div>
+                <div class="detailed__timecode-inner detailed__js-timecode"  data-time="10">
+                    <span class="detailed__timecode-time">
+                        00:10
+                    </span>
+                    <p class="detailed__timecode-text">Раздел "Тендеры"</p>
+                </div>
+                <div class="detailed__timecode-inner detailed__js-timecode" data-time="24">
+                    <span class="detailed__timecode-time">
+                        00:24
+                    </span>
+                    <p class="detailed__timecode-text">Карточка тендера</p>
+                </div>
+                <div class="detailed__timecode-inner detailed__js-timecode" data-time="36">
+                    <span class="detailed__timecode-time">
+                        00:36
+                    </span>
+                    <p class="detailed__timecode-text">Настройка оповещений</p>
+                </div>
+                <div class="detailed__timecode-inner detailed__js-timecode" data-time="45">
+                    <span class="detailed__timecode-time">
+                        00:45
+                    </span>
+                    <p class="detailed__timecode-text">История изменений - работа в закупке</p>
+                </div>
+                <div class="detailed__timecode-inner detailed__js-timecode" data-time="108">
+                    <span class="detailed__timecode-time">
+                        01:48
+                    </span>
+                    <p class="detailed__timecode-text">Работа с документами</p>
+                </div>
+                <div class="detailed__timecode-inner detailed__js-timecode" data-time="120">
+                    <span class="detailed__timecode-time">
+                        02:10
+                    </span>
+                    <p class="detailed__timecode-text">Параметры тендера</p>
+                </div>
+                <div class="detailed__timecode-inner detailed__js-timecode" data-time="120">
+                    <span class="detailed__timecode-time">
+                        03:10
+                    </span>
+                    <p class="detailed__timecode-text">Участники</p>
+                </div>
+                <div class="detailed__timecode-inner detailed__js-timecode" data-time="120">
+                    <span class="detailed__timecode-time">
+                        04:50
+                    </span>
+                    <p class="detailed__timecode-text">Раздел "Аналитика"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="business">
+    <div class="container">
+        <div class="business__inner">
+            <h3 class="business__title">
+               <span class="business__title-text">Seldon.Doc</span> для Вашего бизнеса
+            </h3>
+            <p class="business__text">
+                Давно планируете оптимизировать работу тендерного отдела, но боитесь потерять эффективность? Seldon.Doc
+                — программное обеспечение для автоматизации тендерных отделов, которое позволяет проводить эффективный
+                мониторинг, организацию и маршрутизацию при работе с тендерами.
+            </p>
+            <p class="business__text">
+                Кроме того, благодаря мощной системе аналитики вы сможете не только сэкономить время и ресурсы, но и
+                увеличить долю компании на рынке, получив доступ к большему объему закупок.
+            </p>
+            <img class="business__decor" src="images/business/decor.jpg" alt="alt"/>
+        </div>
+    </div>
+</section>
+<section class="demo title lazy-load-box" data-delay="0" data-speed="400">
+    <div class="container">
+        <h3 class="demo__top-title">Демо-доступ</h3>
+        <div class="demo__phone">
+            <div class="demo__phone-text">
+                Запросите доступ или позвоните нам по телефону
+            </div>
+            <a class="demo__phone-link" href="tel:84957958285">8 (495) 795-82-85</a>
+        </div>
+        <div class="demo__decor">
+             
+        </div>
+        <a class="demo__button js__popup-link" href="#" data-modal="#popup">
+            Получить доступ
+        </a>
+    </div>
+</section>
+        </main>
+        <footer class="footer lazy-load-box" data-delay="0" data-speed="400">
+   <div class="container">
+      <div class="footer__inner">
+         <div class="footer__logo">
+            <a href="/" class="footer__logo-link">
+               <img src="images/footer/footer__logo.png" alt="alt">
+            </a>
+            <span class="footer__appendix">
+               Официальные приложения можно найти на маркетплейсах
+            </span>
+            <img class="footer__img" src="images/footer/footer__goodle.png" alt="alt" />
+         </div>
+         <ul class="footer__list">
+            <li class="footer__list-title">ПРОДУКТЫ</li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon 1.7</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon.Basis</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon.Pro</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon.Doc</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon.Price</a></li>
+         </ul>
+         <ul class="footer__list">
+            <li class="footer__list-title">КЛИЕНТАМ</li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">О компании</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Новости</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Сертификаты</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Тарифы</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Контакты</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">FAQ</a></li>
+         </ul>
+         <ul class="footer__list footer__list--gap">
+            <li class="footer__list-title">КОНТАКТЫ</li>
+            <li class="footer__list-nav footer__list-link footer__list-link--weight">
+               ООО "Селдон ПРО" -
+               разработчик программного обеспечения:
+               г.Москва, ул.Радио, д.24, корп.1
+            </li>
+            <li class="footer__list-nav footer__list-link footer__list-link--weight">
+               ООО "Телеком" -
+               официальный партнер Seldon:
+               г.Чебоксары, пр.Мира, д.90, корп.1
+            </li>
+            <li class="footer__list-nav">
+               <a class="footer__list-phone" href="tel:84957958285">8 (495) 795-82-85</a>
+            </li>
+            <li class="footer__list-nav">
+               <a class="footer__list-mail" href="mailto:sales@seldon.info">sales@seldon.info</a>
+            </li>
+         </ul>
+      </div>
+      <div class="footer__bottom">
+         <p class="footer__bottom-text">
+            Материалы данного сайта не могут быть скопированы и использованы без письменного разрешения, кроме как для
+            частного, некоммерческого просмотра. Основной сайт company.myseldon.com
+         </p>
+         <div class="footer__bottom-links">
+            <a class="footer__bottom-link" href="#">Согласие на обработку данных</a>
+            <a class="footer__bottom-link" href="#">Защита персональных данных</a>
+         </div>
+         <span class="footer__appendix footer__appendix-media">
+            Официальные приложения можно найти на маркетплейсах
+         </span>
+         <img class="footer__img footer__appendix-media" src="images/footer/footer__goodle.png" alt="alt" />
+      </div>
+   </div>
+</footer> 
+        <div data-popup="#popup" class="popup js__popup-open">
+    <div class="popup__body">
+        <div class="popup__content js__popup-content">
+            <span class="popup__close js__popup-close">
+                <svg class="icon popup__icon">
+                    <use xlink:href="svg-sprite/sprite.svg#modal__close"></use>
+                </svg>
+            </span>
+            <form class="popup__form" action="#">
+                <h4 class="popup__title">Получить доступ</h4>
+                <label class="popup__label" for="popup">
+                    <input id="popup" type="text" class="popup__input form__focus-js">
+                    <span class="popup__label-focus">Ваше имя <span class="popup__star">*</span></span>
+                </label>
+                <label class="popup__label" for="popup2">
+                    <input id="popup2" type="text" class="popup__input phone form__focus-js">
+                    <span class="popup__label-focus">Ваш телефон <span class="popup__star">*</span></span>
+                </label>
+                <label class="popup__label" for="popup3">
+                    <input id="popup3" type="text" class="popup__input form__focus-js">
+                    <span class="popup__label-focus">Ваш e-mail <span class="popup__star">*</span></span>
+                </label>
+                <button class="popup__btn" type="submit">Получить доступ</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div data-popup="#popup2" class="popupvideo js__popup-open">
+    <div class="popupvideo__body">
+        <div class="popupvideo__content js__popup-content">
+            <span class="popupvideo__close js__popup-close">
+                <svg class="icon popupvideo__icon">
+                    <use xlink:href="svg-sprite/sprite.svg#modal__close"></use>
+                </svg>
+            </span>
+            <h6 class="popupvideo__title">Seldon 1.7 - система поиска тендеров</h6>
+            <video controls class="popupvideo__video popupvideo__video-js" src="files/video/Video.mp4"></video>
+        </div>
+    </div>
+</div> 
+        <a href="#" class="arrow">
+           <svg class="icon arrow__icon">
+               <use xlink:href="svg-sprite/sprite.svg#arrow"></use>
+           </svg>
+        </a>
+    </div>
+   
+
+
+    <script  src="js/libraries/libraries.js"></script>
+    <script src="js/main/main.js"></script>
+    
+</body>
+</html>
+

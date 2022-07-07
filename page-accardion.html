@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Test</title>
+    <meta name="description" content="">
+
+    <link rel="icon" type="image/png" href="favicon/favicon.png" />
+<link rel="icon" href="favicon/favicon.svg" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:description"  content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    <meta name="format-detection" content="telephone=no">
+</head>
+<body>
+
+
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo" href="/">
+                <img src="images/header/logo.png" alt="alt" />
+            </a>
+            <div class="header__contacts">
+                <div class="header__contact">
+                    <div class="header__phone">
+                        <a class="header__phone-link" href="tel:84957958285">
+                            8 (495) 795-82-85
+                        </a>
+                        <span class="header__partner">
+                            Официальный партнер Seldon
+                        </span>
+                    </div>
+                    <div class="header__socials">
+                        <a class="header__social header__social--whatsapp" href="#">
+
+                        </a>
+                        <a class="header__social header__social--telegram" href="#">
+
+                        </a>
+                        <a class="header__social header__social--skype" href="#">
+
+                        </a>
+                        <a class="header__social header__social--viber" href="#">
+
+                        </a>
+                    </div>
+                    <button class="header__btn js__popup-link"  data-modal="#popup">
+                        Получить доступ
+                    </button>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-link header__list-link--arrow">Программы</a>
+                            <ul class="header__submenu">
+                                <li class="header__submenu-item"><a class="header__submenu-link" href="#">Seldon 1.7</a>
+                                </li>
+                                <li class="header__submenu-item"><a class="header__submenu-link"
+                                        href="#">Seldon.Basis</a></li>
+                                <li class="header__submenu-item"><a class="header__submenu-link" href="#">Seldon.Pro</a>
+                                </li>
+                                <li class="header__submenu-item"><a class="header__submenu-link" href="#">Seldon.Doc</a>
+                                </li>
+                                <li class="header__submenu-item"><a class="header__submenu-link"
+                                        href="#">Seldon.Price</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Цены</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">О компании</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Гарантии</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Новости</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">FAQ</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header__inner-mobail">
+            <div class="header__content-mobail">
+                <div class='header__burger js__header-burgerclick'>
+                    <div class='header__burger-item js__header-burger header__burger--top'></div>
+                    <div class='header__burger-item js__header-burger header__burger--middle'></div>
+                    <div class='header__burger-item js__header-burger header__burger--bottom'></div>
+                </div>
+                <a class="header__logo" href="/">
+                    <picture>
+                        <source srcset="images/header/logo__mobail.png" type="image/png" media="(max-width:500px)">
+                        <img src="images/header/logo.png" alt="alt" />
+                    </picture>
+                </a>
+            </div>
+            <nav class="header__nav header__nav-js">
+                <div class="container">
+                    <div class="header__scroll">
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a href="#"
+                                    class="header__list-link header__list-link--arrow header__list-click">Программы</a>
+                                <ul class="header__submenu header__submenu-openjs">
+                                    <li class="header__submenu-item"><a class="header__submenu-link" href="#">Seldon
+                                            1.7</a>
+                                    </li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link"
+                                            href="#">Seldon.Basis</a>
+                                    </li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link"
+                                            href="#">Seldon.Pro</a>
+                                    </li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link"
+                                            href="#">Seldon.Doc</a>
+                                    </li>
+                                    <li class="header__submenu-item"><a class="header__submenu-link"
+                                            href="#">Seldon.Price</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Цены</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">О компании</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Гарантии</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Новости</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">FAQ</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Контакты</a></li>
+                        </ul>
+                        <div class="header__phone">
+                            <a class="header__phone-link" href="tel:84957958285">
+                                8 (495) 795-82-85
+                            </a>
+                            <span class="header__partner">
+                                Официальный партнер Seldon
+                            </span>
+                        </div>
+                        <div class="header__socials">
+                            <a class="header__social header__social--whatsapp" href="#">
+
+                            </a>
+                            <a class="header__social header__social--telegram" href="#">
+
+                            </a>
+                            <a class="header__social header__social--skype" href="#">
+
+                            </a>
+                            <a class="header__social header__social--viber" href="#">
+
+                            </a>
+                        </div>
+                        <button class="header__btn js__popup-link"  data-modal="#popup">
+                            Получить доступ
+                        </button>
+                        <div class='header__burger header__burger-close js__header-burgerclick'>
+                            <div class='header__burger-item js__header-burger header__burger--top open'></div>
+                            <div class='header__burger-item js__header-burger header__burger--middle open'></div>
+                            <div class='header__burger-item js__header-burger header__burger--bottom open'></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header> 
+        <main class="main">
+            <section class="accardion">
+   <div class="container">
+      <h1 class="accardion__title">
+         Вопросы и ответы
+      </h1>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="0" data-speed="400">
+         <div class="accardion__inner">
+            Как составить хороший поисковый запрос
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="200" data-speed="400">
+         <div class="accardion__inner">
+            Поиск по документации
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="400" data-speed="400">
+         <div class="accardion__inner">
+            Фильтр по СМП
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="600" data-speed="400">
+         <div class="accardion__inner">
+            Планы‑графики и планируемые закупки
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="800" data-speed="400">
+         <div class="accardion__inner">
+            Настройка рабочего места
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="1000" data-speed="400">
+         <div class="accardion__inner">
+            Шаблоны поиска и подписка
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="1200" data-speed="400">
+         <div class="accardion__inner">
+            Избранное
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="1400" data-speed="400">
+         <div class="accardion__inner">
+            Как настроить выгрузку в Excel
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="1600" data-speed="400">
+         <div class="accardion__inner">
+            Протоколы, участники и результаты
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="1800" data-speed="400">
+         <div class="accardion__inner">
+            Аналитика по заказчикам и поставщикам.
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="2000" data-speed="400">
+         <div class="accardion__inner">
+            Реестр недобросовестных поставщиков.
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="2200" data-speed="400">
+         <div class="accardion__inner">
+            Добавление/исключение заказчика.
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="2400" data-speed="400">
+         <div class="accardion__inner">
+            Торги имущества
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+      <div class="accardion__box accardion__js-click lazy-load-box" data-delay="2600" data-speed="400">
+         <div class="accardion__inner">
+            Список ЭТП в сервисе
+            <svg class="icon accardion__inner-svg accardion__js-svg">
+               <use xlink:href="svg-sprite/sprite.svg#plus"></use>
+            </svg>
+         </div>
+         <div class="accardion__open accardion__open-js">
+            <p class="accardion__text">
+               Подумайте над ключевыми словами: что вы поставляете, как называется продукция или услуга, как это
+               называют заказчики. Чем больше перечислите синонимов, тем лучше. Если обобщите в запросе сферу
+               деятельности, то найдете не все подходящие закупки. Напишите конкретные слова, которые заказчики
+               указывают в названиях и документах закупок.
+            </p>
+            <p class="accardion__text">
+               Количество слов в запросе не ограничено, но мы рекомендуем указывать не больше 10-15. Из большого запроса
+               сложнее убирать лишние закупки.
+            </p>
+         </div>
+      </div>
+   </div>
+</section>
+<section class="demo title lazy-load-box" data-delay="0" data-speed="400">
+    <div class="container">
+        <h3 class="demo__top-title">Демо-доступ</h3>
+        <div class="demo__phone">
+            <div class="demo__phone-text">
+                Запросите доступ или позвоните нам по телефону
+            </div>
+            <a class="demo__phone-link" href="tel:84957958285">8 (495) 795-82-85</a>
+        </div>
+        <div class="demo__decor">
+             
+        </div>
+        <a class="demo__button js__popup-link" href="#" data-modal="#popup">
+            Получить доступ
+        </a>
+    </div>
+</section>
+        </main>
+        <footer class="footer lazy-load-box" data-delay="0" data-speed="400">
+   <div class="container">
+      <div class="footer__inner">
+         <div class="footer__logo">
+            <a href="/" class="footer__logo-link">
+               <img src="images/footer/footer__logo.png" alt="alt">
+            </a>
+            <span class="footer__appendix">
+               Официальные приложения можно найти на маркетплейсах
+            </span>
+            <img class="footer__img" src="images/footer/footer__goodle.png" alt="alt" />
+         </div>
+         <ul class="footer__list">
+            <li class="footer__list-title">ПРОДУКТЫ</li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon 1.7</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon.Basis</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon.Pro</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon.Doc</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Seldon.Price</a></li>
+         </ul>
+         <ul class="footer__list">
+            <li class="footer__list-title">КЛИЕНТАМ</li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">О компании</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Новости</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Сертификаты</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Тарифы</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">Контакты</a></li>
+            <li class="footer__list-nav"><a class="footer__list-link" href="#">FAQ</a></li>
+         </ul>
+         <ul class="footer__list footer__list--gap">
+            <li class="footer__list-title">КОНТАКТЫ</li>
+            <li class="footer__list-nav footer__list-link footer__list-link--weight">
+               ООО "Селдон ПРО" -
+               разработчик программного обеспечения:
+               г.Москва, ул.Радио, д.24, корп.1
+            </li>
+            <li class="footer__list-nav footer__list-link footer__list-link--weight">
+               ООО "Телеком" -
+               официальный партнер Seldon:
+               г.Чебоксары, пр.Мира, д.90, корп.1
+            </li>
+            <li class="footer__list-nav">
+               <a class="footer__list-phone" href="tel:84957958285">8 (495) 795-82-85</a>
+            </li>
+            <li class="footer__list-nav">
+               <a class="footer__list-mail" href="mailto:sales@seldon.info">sales@seldon.info</a>
+            </li>
+         </ul>
+      </div>
+      <div class="footer__bottom">
+         <p class="footer__bottom-text">
+            Материалы данного сайта не могут быть скопированы и использованы без письменного разрешения, кроме как для
+            частного, некоммерческого просмотра. Основной сайт company.myseldon.com
+         </p>
+         <div class="footer__bottom-links">
+            <a class="footer__bottom-link" href="#">Согласие на обработку данных</a>
+            <a class="footer__bottom-link" href="#">Защита персональных данных</a>
+         </div>
+         <span class="footer__appendix footer__appendix-media">
+            Официальные приложения можно найти на маркетплейсах
+         </span>
+         <img class="footer__img footer__appendix-media" src="images/footer/footer__goodle.png" alt="alt" />
+      </div>
+   </div>
+</footer> 
+        <div data-popup="#popup" class="popup js__popup-open">
+    <div class="popup__body">
+        <div class="popup__content js__popup-content">
+            <span class="popup__close js__popup-close">
+                <svg class="icon popup__icon">
+                    <use xlink:href="svg-sprite/sprite.svg#modal__close"></use>
+                </svg>
+            </span>
+            <form class="popup__form" action="#">
+                <h4 class="popup__title">Получить доступ</h4>
+                <label class="popup__label" for="popup">
+                    <input id="popup" type="text" class="popup__input form__focus-js">
+                    <span class="popup__label-focus">Ваше имя <span class="popup__star">*</span></span>
+                </label>
+                <label class="popup__label" for="popup2">
+                    <input id="popup2" type="text" class="popup__input phone form__focus-js">
+                    <span class="popup__label-focus">Ваш телефон <span class="popup__star">*</span></span>
+                </label>
+                <label class="popup__label" for="popup3">
+                    <input id="popup3" type="text" class="popup__input form__focus-js">
+                    <span class="popup__label-focus">Ваш e-mail <span class="popup__star">*</span></span>
+                </label>
+                <button class="popup__btn" type="submit">Получить доступ</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div data-popup="#popup2" class="popupvideo js__popup-open">
+    <div class="popupvideo__body">
+        <div class="popupvideo__content js__popup-content">
+            <span class="popupvideo__close js__popup-close">
+                <svg class="icon popupvideo__icon">
+                    <use xlink:href="svg-sprite/sprite.svg#modal__close"></use>
+                </svg>
+            </span>
+            <h6 class="popupvideo__title">Seldon 1.7 - система поиска тендеров</h6>
+            <video controls class="popupvideo__video popupvideo__video-js" src="files/video/Video.mp4"></video>
+        </div>
+    </div>
+</div> 
+        <a href="#" class="arrow">
+           <svg class="icon arrow__icon">
+               <use xlink:href="svg-sprite/sprite.svg#arrow"></use>
+           </svg>
+        </a>
+    </div>
+   
+
+
+    <script  src="js/libraries/libraries.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="js/main/main.js"></script>
+    
+</body>
+</html>
+
